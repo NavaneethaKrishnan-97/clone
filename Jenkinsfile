@@ -1,6 +1,6 @@
 pipeline
 {
-agent any
+agent 'My_label'
 parameters
 	{
 		booleanParam(name: 'SKIP_TEST', defaultValue: false, description: 'Skipped the test stage')
