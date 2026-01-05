@@ -1,9 +1,11 @@
 pipeline
 {
-agent any
+agent	{
+	node any
+		}
 parameters
 	{
-		booleanParam(name: 'SKIP_TEST', defaultValue: false, description: 'Skip the test stage')
+		booleanParam(name: 'SKIP_TEST', defaultValue: false, description: 'Skipped the test stage')
 	}
 stages
 	{
