@@ -1,7 +1,7 @@
 pipeline
 {
 agent	{
-	node 'Node 2'
+	node any
 		}
 parameters
 	{
